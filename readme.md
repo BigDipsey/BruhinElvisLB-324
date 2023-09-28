@@ -4,6 +4,9 @@
 Erklären Sie hier, wie man `pre-commit` installiert.
 
 Erklärung:
+
+r
+
 Der Programmierer muss nicht selbst die Tests ausführen, den das .pre-commit-config.yaml wurde so eingestellt das bei jedem commit die Tests ausgeführt werden
 
 ## Aufgabe 4
