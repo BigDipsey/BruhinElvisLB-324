@@ -1,5 +1,8 @@
 # LB 324
 
+Link zur Azure Website:
+https://tagebbbuch-by-elvis.azurewebsites.net/
+
 ## Aufgabe 2
 
 Erklären Sie hier, wie man `pre-commit` installiert.
