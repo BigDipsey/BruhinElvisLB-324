@@ -47,4 +47,4 @@ Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env`-Datei auf Azur
 
    ![Alt text](image-1.png)
 
-Durch diese Schritte übertragen Sie das Passwort aus Ihrer lokalen `.env`-Datei auf Azure.
+Durch diese Schritte habe ich das das Passwort aus meiner Lokalen `.env`-Datei auf Azure eingefügt.
