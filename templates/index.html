@@ -14,12 +14,15 @@
     <form method="POST" action="/add_entry">
         <textarea name="content" rows="4" cols="50" placeholder="Write your entry here..."></textarea>
         <br>
+        <label for="happiness">happiness:</label>
+        <input type="text" name="happiness" id="happiness" placeholder="Enter your happiness...">
+        <br>
         <button type="submit">Add Entry</button>
     </form>
     <h2>Entries:</h2>
     <ul>
         {% for entry in entries %}
-        <li>{{ entry.timestamp.strftime('%Y-%m-%d %H:%M:%S') }} - {{ entry.content }}</li>
+        <li>{{ entry.timestamp.strftime('%Y-%m-%d %H:%M:%S') }} - {{ entry.content }} (happiness: {{ entry.happiness }})</li>
         {% endfor %}
     </ul>
 
@@ -27,7 +30,6 @@
     <h2>Please log in to view your diary:</h2>
     <a href="/login">Login</a>
     {% endif %}
-
 
 </body>
 
